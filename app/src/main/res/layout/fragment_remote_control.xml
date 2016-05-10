@@ -7,6 +7,44 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:stretchColumns="*"
     tools:context="com.learning.remotecontrol.RemoteControlActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="50dp"
+        android:id="@+id/fragment_remote_control_selectedTextView" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="15dp"
+        android:background="#555555"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#cccccc"
+        android:textSize="20dp"
+        android:id="@+id/fragment_remote_control_workingTextView" />
+    <TableRow
+        android:layout_weight="1">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:id="@+id/fragment_remote_control_zeroButton" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="1"
+            android:id="@+id/fragment_remote_control_oneButton" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Enter"
+            android:id="@+id/fragment_remote_control_enterButton" />
+    </TableRow>
 </TableLayout>
