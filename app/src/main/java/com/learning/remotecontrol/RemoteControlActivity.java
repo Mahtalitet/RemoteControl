@@ -9,7 +9,7 @@ public class RemoteControlActivity extends SingleFragmentActivity {
 
     @Override
     protected Fragment createFragment() {
-        return null;
+        return new RemoteControlFragment();
     }
 
     @Override
