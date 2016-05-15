@@ -16,4 +16,9 @@
         <item name="android:layout_margin">3dp</item>
     </style>>
 
+    <style name="RemoteButton.ControlButton">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#656699</item>
+    </style>
+
 </resources>
