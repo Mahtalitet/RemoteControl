@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:stretchColumns="*"
+    android:id="@+id/fragment_remote_control_tableLayout"
     tools:context="com.learning.remotecontrol.RemoteControlActivity">
 
     <TextView
