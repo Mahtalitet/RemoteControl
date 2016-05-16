@@ -5,7 +5,6 @@
     android:layout_height="match_parent"
     android:stretchColumns="*"
     android:id="@+id/fragment_remote_control_tableLayout"
-    android:background="@drawable/remote_background"
     tools:context="com.learning.remotecontrol.RemoteControlActivity">
 
     <TextView
@@ -15,19 +14,19 @@
         android:gravity="center"
         android:text="0"
         android:textSize="50dp"
-        android:background="@drawable/window_patch"
-        android:textColor="#FFFFFF"
+        android:textColor="#9E9E9E"
         android:id="@+id/fragment_remote_control_selectedTextView" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@drawable/bar_patch"
         android:gravity="center"
         android:text="0"
         android:textStyle="italic"
         android:textSize="20dp"
-        android:id="@+id/fragment_remote_control_workingTextView" />
+        android:id="@+id/fragment_remote_control_workingTextView"
+        android:textColor="#FFF"
+        android:background="@color/textview_background"/>
     <include
         android:layout_weight="1"
         layout="@layout/button_row"/>
