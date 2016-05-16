@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:stretchColumns="*"
     android:id="@+id/fragment_remote_control_tableLayout"
+    android:background="@drawable/remote_background"
     tools:context="com.learning.remotecontrol.RemoteControlActivity">
 
     <TextView
